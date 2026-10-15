@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<title>Implantação de Aplicações Web em Plataformas Gratuitas</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body class="min-h-screen bg-base-200">
+
+    <header class="navbar bg-base-100 shadow-md px-6">
+
+        <div class="flex-1">
+            <a class="text-xl font-bold text-primary">
+                Logo
+            </a>
+        </div>
+
+        <div class="flex-none">
+            <a href="#sobre" class="btn btn-ghost">
+                Sobre
+            </a>
+
+            <a href="#contato" class="btn btn-primary">
+                Contato
+            </a>
+        </div>
+
+    </header>
+    <main class="flex flex-col items-center justify-center px-6 py-20">
+
+        <section class="card bg-base-100 w-full max-w-2xl">
+
+            <div class="card-body items-center text-center">
+
+                <div class="badge badge-primary badge-outline mb-2">
+                    Meu primeiro deploy
+                </div>
+
+                <h1 class="text-4xl font-bold">
+                    Olá, mundo!
+                </h1>
+
+                <p class="text-base-content/70 mt-4">
+                    Este é um parágrafo legal!
+                </p>
+
+                <div class="card-actions justify-center mt-6">
+
+                    <a href="#sobre" class="btn btn-primary">
+                        Conhecer projeto
+                    </a>
+
+                    <button
+                        class="btn btn-outline"
+                        onclick="alert('Obrigado por visitar o Logo!')"
+                    >
+                        Clique aqui
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Seção sobre -->
+        <section id="sobre" class="mt-12 text-center max-w-xl">
+
+            <h2 class="text-2xl font-bold mb-4">
+                Sobre o projeto
+            </h2>
+
+            <p class="text-base-content/70">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam aliquid vitae corporis nihil maxime 
+                incidunt eius, eveniet nisi pariatur.
+            </p>
+
+        </section>
+
+        <!-- Seção contato -->
+        <section id="contato" class="mt-10 text-center">
+
+            <h2 class="text-xl font-bold mb-3">
+                Entre em contato
+            </h2>
+
+            <p class="text-base-content/70">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe numquam laborum minus deserunt.
+            </p>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
